@@ -1,0 +1,112 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+	background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+}
+								/*NavBar*/
+nav ul {
+	padding: 5px;
+	background-color: black;
+	text-align: center;
+}
+
+ul li{
+	display: inline-block;
+    padding: 20px 40px;
+}
+li a{
+	
+	text-decoration: none;
+	color: orange;
+	padding: 5px 30px;
+	border-color: orange;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	padding: 20px 40px;
+}
+li a:hover{
+	background-color: orange;
+	color:white;
+	border-radius: 10px;
+}
+
+.container{
+	width: 80%;
+	height:100%;
+	padding: 20px;
+	margin-left: 10%;
+	box-shadow:10px 10px 40px 25px orange; 
+	margin-top: 20px;
+	border-radius: 10px;
+}
+
+								/*Tab 1*/
+
+
+label{
+	font-weight: bold;
+	color: orange;
+}
+								/*Tab 2*/
+.lab{
+	border: 1px solid orange;
+	cursor: pointer;
+	padding: 5px 15px;
+	margin-left: 10%;
+	margin-top: 5%;
+	background-color: black;
+	color: orange;
+	font-weight: bold;
+	border-radius: 10px;
+}
+.lab:hover{
+	background-color: orange;
+	color: black;
+}
+img{	
+	margin-left: 40%;
+}
+
+								/*Tab 3*/
+form{
+	padding: 30px;
+	border: 1px solid black;
+	width: 60%;
+	margin-left: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: orange;		
+	border-radius: 10px; 
+}
+	
+input{
+	margin-right: 25px;
+	margin-bottom: 25px;
+	padding: 10px 15px;
+	background-color: black;
+	color: orange;
+	border-radius: 10px;
+	outline: none;
+	border-color: orange;
+}
+::placeholder {
+  color: orange;
+  opacity: 1; /* Firefox */
+}
+.btn{
+	background-color: black;
+	font-weight: bolder;
+	border-radius: 15px;
+	padding: 10px 20px;
+	color: orange;
+	outline: none;
+	box-shadow:2px 2px 20px 5px black;
+	border-color: orange;
+}
+.btn1{
+	box-shadow:2px 2px 20px 5px orange;
+}

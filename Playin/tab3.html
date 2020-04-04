@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tab1</title>
+</head>
+<style type="text/css">
+
+
+
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<div>
+		<nav>
+			<ul>
+				<li><a href="tab1.html"> Tab l</a></li>
+				<li><a href="tab2.html"> Tab 2</a></li>
+				<li><a href="tab3.html"> Tab 3</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+
+	<button id="formButton" class="btn btn1">Add Details</button>
+	
+
+		<form id="form1" method="POST" action="">
+
+			<input type="text" name="Details" placeholder="Name" id="user_input" required>
+			<input type="email" name="Details" placeholder="Email" required>
+			<br>
+			<br>
+			<input type="tel" name="Details" placeholder="Mobile Number"  required>
+			
+			<input type="Date" name="Details" placeholder="Date of Birth" required>
+			<br>
+			<br>
+			<input type="reset" role="button" name="button" value="Remove" class="btn">
+
+		</form>
+	     <p id="output"></p>
+	</div>
+	<script type="text/javascript">
+		$(document).ready(function() {
+  			$('.btn1').click(function(){
+  				alert("Form Submitted");
+  			});
+
+		});
+		
+
+	</script>
+
+</body>
+</html>
