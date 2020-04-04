@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>tab3</title>
+</head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+ <link rel="stylesheet" type="text/css" href="style.css">
+<body>
+	<div>
+		<nav>
+			<ul>
+				<li><a href="tab1.html"> Tab l</a></li>
+				<li><a href="tab2.html"> Tab 2</a></li>
+				<li><a href="tab3.html"> Tab 3</a></li>
+			</ul>
+		</nav>
+	</div>
+	<div class="container">
+
+		<button id="submit" class="btn btn1">Add Details</button>
+	
+		<div class="formcontent">
+			<form id="form1" method="POST" action="">
+
+				<input type="text" name="Details" placeholder="Name">
+				<input type="email" name="Details" placeholder="Email">
+				<br>
+				<br>
+				<input type="tel" name="Details" placeholder="Mobile Number">
+				
+				<input type="Date" name="Details" placeholder="Date of Birth">
+				<br>
+				<br>
+				<input type="reset" role="button" name="button" value="Remove" class="btn">
+
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$('#submit').click(function(){
+		   if($.trim($('#myMessage').val()) == ''){
+		      alert('Input can not be left blank');
+		   }
+		});
+	</script>
+</body>
+</html>
